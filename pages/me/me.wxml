@@ -1,0 +1,13 @@
+<view>
+	<view class="content">
+		<view class="logo">
+			<open-data type="userAvatarUrl" class="userinfo1" id="userinfo1"></open-data>
+		</view>
+		<view id="userinfo2">
+			<open-data type="userNickName" class="userinfo2"></open-data>
+		</view>
+	</view>
+	<van-cell is-link title="我的作业" link-type="navigateTo" url="/pages/myHomeWork/myHomeWork" />
+	<van-cell is-link title="我的班级" link-type="navigateTo" url="/pages/myClass/myClass" />
+	<van-cell is-link title="退出登录" link-type="navigateTo" url="/pages/login/login" />
+</view>

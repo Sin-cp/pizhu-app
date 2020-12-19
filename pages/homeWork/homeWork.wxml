@@ -1,0 +1,62 @@
+<view class="content">
+<van-notice-bar scrollable text="亲爱的各位同学，请大家认真复习学过的知识，并完成课后练习！！" />
+	<van-divider contentPosition="center" customStyle="color: #1989fa; border-color: #1989fa; font-size: 18px;">
+		最新发布
+	</van-divider>
+	<view class="timeBox">
+		<view class="setTime">结束时间</view>
+		<van-count-down millisecond time="{{ time }}" format="HH:mm:ss" />
+	</view>
+	<view class="item" wx:for="{{array}}" wx:key="index" data-index='{{index}}' bindtap="itemOnclick">
+		<image src="{{imageURL}}" class="image"></image>
+		<view class="itemRight">
+			<view>{{item.title}}</view>
+			<view>{{item.uploader}}</view>
+		</view>
+	</view>
+	<van-divider contentPosition="center" customStyle="color: #1989fa; border-color: #1989fa; font-size: 18px;">
+		已结束
+	</van-divider>
+	<view class="item" bindtap="finish">
+		<image src="{{imageURL1}}" class="image"></image>
+		<view class="itemRight">
+			<view>第二单元练习</view>
+			<view>对第二单元所学知识进行的巩固提升</view>
+		</view>
+	</view>
+	<view class="item" bindtap="finish">
+		<image src="{{imageURL1}}" class="image"></image>
+		<view class="itemRight">
+			<view>第三单元练习</view>
+			<view>对第三单元所学知识进行的巩固提升</view>
+		</view>
+	</view>
+	<view class="item" bindtap="finish">
+		<image src="{{imageURL1}}" class="image"></image>
+		<view class="itemRight">
+			<view>第三单元练习</view>
+			<view>对第三单元所学知识进行的巩固提升</view>
+		</view>
+	</view>
+	<view class="item" bindtap="finish">
+		<image src="{{imageURL1}}" class="image"></image>
+		<view class="itemRight">
+			<view>第四单元练习</view>
+			<view>对第四单元所学知识进行的巩固提升</view>
+		</view>
+	</view>
+	<view class="item" bindtap="finish">
+		<image src="{{imageURL1}}" class="image"></image>
+		<view class="itemRight">
+			<view>第五单元练习</view>
+			<view>对第五单元所学知识进行的巩固提升</view>
+		</view>
+	</view>
+	<view class="item" bindtap="finish">
+		<image src="{{imageURL1}}" class="image"></image>
+		<view class="itemRight">
+			<view>第六单元练习</view>
+			<view>对第六单元所学知识进行的巩固提升</view>
+		</view>
+	</view>
+</view>

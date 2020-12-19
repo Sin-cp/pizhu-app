@@ -1,0 +1,10 @@
+<!--pages/myHomeWorkContent/myHomeWorkContent.wxml-->
+<view class="body">
+	<view class="content">
+		<text class="contentText">{{text}}</text>
+	</view>
+	<view class="commentBox">
+		<view class="commentTitle">批注内容:</view>
+		<view class="comment">这篇文章写得可以的，小朱真棒！</view>
+	</view>
+</view>

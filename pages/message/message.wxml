@@ -1,0 +1,69 @@
+<view class="content">
+	<view class="header">
+<van-search
+  value="{{ value }}"
+  shape="round"
+  background="#4fc08d"
+  placeholder="请输入搜索关键词"
+/>
+	</view>
+	<view class="item">
+		<view class="imageBox">
+			<image src="{{imageURL1}}" class="image"></image>
+		</view>
+		<view class="itemLeft">
+			<view>一甜</view>
+			<view class="text2">你第三题咋做的快点告诉我！</view>
+		</view>
+		<view class="itemRight">
+			35分钟前
+		</view>
+	</view>
+	<view class="item">
+		<view class="imageBox">
+			<image src="{{imageURL2}}" class="image"></image>
+		</view>
+		<view class="itemLeft">
+			<view>赵老师</view>
+			<view class="text2">小甜这次测验做的不错，继续努力！</view>
+		</view>
+		<view class="itemRight">
+			35分钟前
+		</view>
+	</view>
+	<view class="item">
+		<view class="imageBox">
+			<image src="{{imageURL3}}" class="image"></image>
+		</view>
+		<view class="itemLeft">
+			<view>路人A</view>
+			<view class="text2">我是一个路人，我是路人，路人，人！</view>
+		</view>
+		<view class="itemRight">
+			35分钟前
+		</view>
+	</view>
+	<view class="modal" class="{{ showModal ?  'showBlock' : 'showNone'}}">
+		<view class="iconBox">
+			<image src="../../Images/close.png" class="close" bindtap="closeBtn"></image>
+		</view>
+		<view class="cell">
+			<view class="text" bindtap="entity">{{preson}}</view>
+			<van-cell-group>
+				<van-field value="{{ message }}" type="textarea" maxlength="80" show-word-limit placeholder="请输入要批注的内容" autosize border="{{ false }}" />
+			</van-cell-group>
+		</view>
+		<view class="sumbitBtn">
+			<van-button type="primary" bindtap="sumbit">提交</van-button>
+		</view>
+	</view>
+	<view class="imgChange" bindtap="write">
+		<image src="../../Images/change.png" class="img"></image>写留言
+	</view>
+	<!-- 弹出框 -->
+	<van-popup show="{{ show }}" round position="bottom" custom-style="height:40%" bind:close="onClose" >	
+		<!-- 选择器 -->
+		<van-picker columns="{{ columns }}" bind:change="onChange" />
+
+	</van-popup>
+</view>

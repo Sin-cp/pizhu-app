@@ -1,0 +1,95 @@
+.image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40rpx 0;
+}
+
+.imageBox {
+  width: 15%;
+  height: 100%;
+}
+
+.itemLeft {
+  width: 65%;
+}
+
+.itemRight {
+  font-size: 24rpx;
+  color: #BBBBBB;
+  height: 100%;
+}
+
+.text2 {
+  font-size: 25rpx;
+  margin-top: 5rpx;
+  color: #757575;
+}
+
+.imgChange {
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+  right: 50rpx;
+  bottom: 110rpx;
+  position: fixed;
+}
+
+.img {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.showNone {
+  display: none;
+}
+
+.showBlock {
+  display: block;
+  z-index: 3;
+  width: 480rpx;
+  height: 500rpx;
+  position: fixed;
+  left: 132rpx;
+  bottom: 335rpx;
+  border: 2rpx #BBBBBB solid;
+  background-color: #ffffff;
+}
+
+.iconBox {
+  text-align: right;
+}
+
+.close {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 5rpx;
+  margin-top: 5rpx;
+}
+
+.sumbitBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cell {
+  height: 55%;
+}
+.text{
+  height: 40rpx;
+  width: max-content;
+  padding: 5rpx 10rpx;
+  margin-left: 30rpx;
+  margin-bottom: 15rpx;
+  border: 1rpx red solid;
+}

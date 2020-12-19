@@ -1,0 +1,59 @@
+<view class="body">
+<view class="content">
+  <view class="header">
+    软工17001班
+  </view>
+  <van-divider />
+  <view class="ranking">成绩排行</view>
+  <view class="rankingNumber">
+    <view class="item">
+      <view class="itemLeft">刘铁柱</view>
+      <view class="itemRight">99分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">马画藤</view>
+      <view class="itemRight">99分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">迟口药</view>
+      <view class="itemRight">75分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">李云龙</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+    <view class="item">
+      <view class="itemLeft">狄仁杰</view>
+      <view class="itemRight">26分</view>
+    </view>
+  </view>
+</view>
+</view>

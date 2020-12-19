@@ -1,0 +1,26 @@
+.itemLeft{
+  font-size: 40rpx;
+  padding-left: 40rpx;
+  width: 50%;
+}
+.itemRight{
+  font-size: 40rpx;
+  text-align: right;
+  padding-right: 40rpx;
+  width: 50%;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2rpx #7B826E solid;
+  padding: 20rpx 0;
+}
+.header{
+  font-size: 60rpx;
+  margin-left: 30rpx;
+}
+.ranking{
+  font-size: 50rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}

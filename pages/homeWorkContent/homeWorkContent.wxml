@@ -1,0 +1,24 @@
+<!--pages/homeWorkContent/homeWorkContent.wxml-->
+
+<view class="body">
+	<view class="title">好文鉴赏</view>
+	<view class="changeBox">
+		<image src="../../Images/change.png" class="{{showChange?'showChangeB':'showChangeN'}}" bindtap="modalOpen"></image>
+	</view>
+	<view class="modal" class="{{ showModal ?  'showBlock' : 'showNone'}}">
+			<view class="iconBox">
+				<image src="../../Images/close.png" class="close" bindtap="closeBtn"></image>
+			</view>
+			<view class="cell">
+				<van-cell-group>
+					<van-field value="{{ message }}" type="textarea" bindinput="textarea" maxlength="80" show-word-limit placeholder="请输入要批注的内容" autosize border="{{ false }}" />
+				</van-cell-group>
+			</view>
+			<view class="sumbitBtn">
+				<van-button type="primary" bindtap="sumbit">提交</van-button>
+			</view>
+		</view>
+	<view class="content">
+		<text class='' selectable='true' bindtouchstart="touchStartOnclick" bindtouchend="touchEndOnclick" class="{{showText?'showTextU':showTextD}}">{{info}}</text>
+	</view>
+</view>

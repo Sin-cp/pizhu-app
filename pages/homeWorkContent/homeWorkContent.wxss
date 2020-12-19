@@ -1,0 +1,110 @@
+.title {
+  width: 100%;
+  height: 60rpx;
+  font-size: 60rpx;
+  text-align: center;
+  justify-content: center;
+}
+
+.evaluate {
+  float: right;
+  margin-right: 50rpx;
+}
+
+.changeBox {
+  height: 100rpx;
+  width: 100%;
+}
+
+.content {
+  padding: 0 25rpx 0 40rpx;
+}
+
+::selection {
+  color: red;
+}
+
+/* .iconImg {
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  right: 150rpx;
+  top: 200rpx;
+  background-color: #ffffff;
+} */
+
+/* show*/
+.showNone {
+  display: none;
+}
+
+.showBlock {
+  display: block;
+  z-index: 3;
+  width: 480rpx;
+  height: 480rpx;
+  position: fixed;
+  left: 132rpx;
+  background-color: #ffffff;
+}
+
+.showChangeB {
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+  right: 150rpx;
+  top: 200rpx;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 10;
+}
+
+.showChangeN {
+  width: 100rpx;
+  height: 100rpx;
+  display: none; 
+  position: fixed;
+  right: 150rpx;
+  top: 200rpx;
+  background-color: #ffffff;
+}
+
+/* show*/
+.modal {
+  width: 480rpx;
+  height: 480rpx;
+  position: fixed;
+  display: flex;
+  left: 132rpx;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.modalContent {
+  width: 80%;
+  height: 80%;
+  background-color: #ffffff;
+
+}
+
+.iconBox {
+  text-align: right;
+}
+
+.sumbitBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.close {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 5rpx;
+  margin-top: 5rpx;
+}
+
+.cell {
+  height: 55%;
+}

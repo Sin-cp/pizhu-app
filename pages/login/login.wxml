@@ -1,0 +1,21 @@
+<view class="content">
+	<view class="header"></view>
+	<view class="card">
+		<view class="cardContent">
+			<view class="field">
+				<van-field value="{{ username }}" clearable bindinput="getUsername" placeholder="手机号/用户名" bind:click-icon="onClickIcon" />
+			</view>
+			<view class="field">
+				<van-field value="{{ password }}" clearable type="password" bindinput="getPassword" placeholder="密码" border="{{ false }}" />
+			</view>
+			<view class="checkbox">
+				<van-checkbox value="{{ checked }}" bind:change="onChange" shape="square">
+					记住密码
+				</van-checkbox>
+			</view>
+			<view class="btnBox" bindtap="loginBtn">
+				<van-button class="btn" type="primary" size="large" color="#0061AE" bindtap="loginBtn">登录</van-button>
+			</view>
+		</view>
+	</view>
+</view>

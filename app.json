@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/me/me",
+    "pages/message/message",
+    "pages/homeWork/homeWork",
+    "pages/myHomeWork/myHomeWork",
+    "pages/myClass/myClass",
+    "pages/homeWorkContent/homeWorkContent",
+    "pages/myHomeWorkContent/myHomeWorkContent"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#05C060",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/homeWork/homeWork",
+        "iconPath": "/Images/selected/homeWork1.png",
+        "selectedIconPath": "/Images/unselect/homeWork2.png",
+        "text": "作业"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "/Images/selected/message1.png",
+        "selectedIconPath": "/Images/unselect/message2.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "/Images/selected/me1.png",
+        "selectedIconPath": "/Images/unselect/me2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

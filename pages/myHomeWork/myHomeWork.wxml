@@ -1,0 +1,10 @@
+<view class="content">
+  <view class="complete">已完成</view>
+	<view class="item" wx:for="{{array}}" wx:key="index" data-index='{{index}}' bindtap="itemOnclick">
+		<image src="{{imageURL}}" class="image"></image>
+		<view class="itemRight">
+			<view>{{item.title}}</view>
+			<view>{{item.uploader}}</view>
+		</view>
+	</view>
+</view>
